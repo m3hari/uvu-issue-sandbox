@@ -1,0 +1,13 @@
+{
+  "name": "uvu-issue-sandbox",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "uvu -r ts-node/register -r tests/setup/global tests/specs"
+  },
+  "devDependencies": {
+    "ts-node": "8.10.2",
+    "typescript": "3.9.6",
+    "uvu": "^0.5.0"
+  }
+}
